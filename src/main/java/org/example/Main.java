@@ -24,5 +24,6 @@ public class Main {
         List<Student> students = studentRepository.findAll();
         System.out.println(students);
 
+
     }
 }
