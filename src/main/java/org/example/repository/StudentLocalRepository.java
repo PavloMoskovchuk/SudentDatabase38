@@ -14,7 +14,7 @@ public class StudentLocalRepository implements StudentRepository {
 
 
     private static final String SHOW_STUDENTS = "SELECT * FROM student";
-//    private static final String SHOW_STUDENT_BY_ID = "SELECT * FROM student where id = ?";
+    //    private static final String SHOW_STUDENT_BY_ID = "SELECT * FROM student where id = ?";
     private static final String ADD_STUDENT = "INSERT INTO student (firstName, lastName, age, groupNumber) VALUES (?, ?, ?, ?)";
 
     @Override

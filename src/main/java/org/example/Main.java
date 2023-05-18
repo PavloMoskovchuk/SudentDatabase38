@@ -4,8 +4,6 @@ import org.example.domain.Student;
 import org.example.repository.StudentLocalRepository;
 import org.example.repository.StudentRepository;
 
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -13,7 +11,6 @@ public class Main {
 
         StudentRepository studentRepository = new StudentLocalRepository();
         Student student2 = Student.builder()
-                //.id(2)
                 .firstName("Boris")
                 .lastName("Jonson")
                 .age(45)
