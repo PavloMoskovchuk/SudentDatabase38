@@ -9,3 +9,4 @@ public interface StudentRepository {
     void save(Student student);
     List<Student> findAll();
 }
+
